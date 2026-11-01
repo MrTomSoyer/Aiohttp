@@ -2,8 +2,6 @@ import base64
 import json
 import os
 
-import aiohttp
-import aiohttp_session
 from aiohttp import web
 from sqlalchemy import select
 from sqlalchemy.exc import IntegrityError

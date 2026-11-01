@@ -2,6 +2,3 @@
 .env
 .idea/
 __pycache__/
-aiohttp_144/
-templates/
-server.py
