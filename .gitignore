@@ -1,4 +1,6 @@
 /.venv/
-.env
+aiohttp/.env
 .idea/
-__pycache__/
+__pycache__cd/
+aiohttp/__pycache__/
+aiohttp_in_docker/.env

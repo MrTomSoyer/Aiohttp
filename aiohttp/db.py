@@ -13,12 +13,12 @@ load_dotenv()
 POSTGRES_USER = os.getenv("POSTGRES_USER", "app")
 POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD", "secret")
 POSTGRES_DB = os.getenv("POSTGRES_DB", "app")
-POSTGRES_HOST = os.getenv("POSTGRES_HOST", "127.0.0.1")
-POSTGRES_PORT = os.getenv("POSTGRES_PORT", "5431")
+POSTGRES_HOST_LOCAL = os.getenv("POSTGRES_HOST_LOCAL", "127.0.0.1")
+POSTGRES_PORT = os.getenv("POSTGRES_PORT", "5432")
 
 POSTGRES_DSN = (
     f"postgresql+asyncpg://{POSTGRES_USER}:{POSTGRES_PASSWORD}@"
-    f"{POSTGRES_HOST}:{POSTGRES_PORT}/"
+    f"{POSTGRES_HOST_LOCAL}:{POSTGRES_PORT}/"
     f"{POSTGRES_DB}"
 )
 
