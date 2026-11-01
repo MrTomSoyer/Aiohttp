@@ -69,7 +69,7 @@ class User(Base):
     @property
     def user_json(self):
         return {
-            id: self.id,
+            "id": self.id,
             "username": self.username,
             "email": self.email
         }
