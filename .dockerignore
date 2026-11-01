@@ -1,0 +1,7 @@
+.idea/
+aiohttp/
+**/.env
+**/.env.*
+**/.venv/
+**/__pycache__/
+**/*.pyc

@@ -4,3 +4,4 @@ aiohttp/.env
 __pycache__cd/
 aiohttp/__pycache__/
 aiohttp_in_docker/.env
+aiohttp_in_docker/__pycache__/
